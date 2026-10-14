@@ -1,0 +1,35 @@
+.ambassador-banner {
+  position: relative;
+  background: var(--color-accent);
+  text-align: center;
+  padding: var(--space-12) var(--space-8);
+  overflow: hidden;
+}
+
+.ambassador-banner__title {
+  font-size: var(--text-4xl);
+  margin-bottom: var(--space-3);
+}
+
+.ambassador-banner__subtitle {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-4);
+}
+
+.ambassador-banner__link {
+  font-size: var(--text-base);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.ambassador-banner__sticker {
+  position: absolute;
+  bottom: var(--space-6);
+  right: 8%;
+  width: 90px;
+}
+
+@media (max-width: 767px) {
+  .ambassador-banner__title { font-size: var(--text-2xl); }
+  .ambassador-banner__sticker { display: none; }
+}

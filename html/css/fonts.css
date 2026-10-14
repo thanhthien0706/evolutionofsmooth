@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../assets/fonts/BuenosAires-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../assets/fonts/BuenosAires-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../assets/fonts/BuenosAires-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../assets/fonts/BuenosAires-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../assets/fonts/BuenosAires-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Buenos Aires Book";
+  src: url("../assets/fonts/BuenosAires-Book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "commuter";
+  src: url("../assets/fonts/commuter.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "commuter";
+  src: url("../assets/fonts/commuter_1.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "commuter";
+  src: url("../assets/fonts/commuter_2.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

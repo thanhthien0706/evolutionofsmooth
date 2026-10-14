@@ -1,0 +1,100 @@
+.mission-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 580px;
+  max-width: calc(1300 * 100 / 1500 * 1vw);
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mission-tabs__image {
+  overflow: hidden;
+}
+
+.mission-tabs__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.mission-tabs__panel-wrap {
+  background: #f7def6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 40px;
+}
+
+.mission-tabs__heading {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.15;
+  color: #111111;
+  text-transform: lowercase;
+  margin-bottom: 12px;
+}
+
+.mission-tabs__body {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 24px;
+}
+
+.mission-tabs__cta {
+  display: inline-block;
+  padding: 8px 24px;
+  border: 1px solid #111111;
+  border-radius: 0;
+  background: transparent;
+  color: #111111;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.mission-tabs__cta:hover {
+  background: #111111;
+  color: #ffffff;
+}
+
+.mission-tabs__list {
+  display: block;
+}
+
+.mission-tabs__tab {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid rgba(34, 34, 34, 0.35);
+  padding: 14px 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 30px;
+  color: #111111;
+  text-transform: lowercase;
+  cursor: pointer;
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.mission-tabs__tab:last-of-type {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.35);
+}
+
+.mission-tabs__tab:hover {
+  transform: translateX(6px);
+  opacity: 0.7;
+}
+
+@media (max-width: 767px) {
+  .mission-tabs { grid-template-columns: 1fr; }
+  .mission-tabs__image { aspect-ratio: 4/3; }
+  .mission-tabs__panel-wrap { padding: var(--space-6) var(--space-4); }
+}
